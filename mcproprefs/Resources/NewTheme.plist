@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>label</key>
+			<string>THEME_NAME</string>
+			<key>key</key>
+			<string>themeName</string>
+			<key>id</key>
+			<string>themeName</string>
+			<key>action</key>
+			<string>changeThemeName</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>BUBBLE_COLOURS</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>CHMCBubbleLinkCell</string>
+			<key>label</key>
+			<string>SMS</string>
+			<key>detail</key>
+			<string>CHMCSMSBubbleContoller</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>CHMCBubbleLinkCell</string>
+			<key>label</key>
+			<string>IMESSAGE</string>
+			<key>detail</key>
+			<string>CHMCIMBubbleContoller</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>CHMCBubbleLinkCell</string>
+			<key>label</key>
+			<string>OTHER_PERSON</string>
+			<key>detail</key>
+			<string>CHMCOtherBubbleContoller</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>OTHER_COLOURS</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHMCLinkToColourPickerCell</string>
+			<key>label</key>
+			<string>INFO_TEXT</string>
+			<key>key</key>
+			<string>InfoText</string>
+			<key>detail</key>
+			<string>CHMCColourPickerController</string>
+			<key>alpha</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>cellClass</key>
+			<string>CHMCBackgroundLinkCell</string>
+			<key>label</key>
+			<string>BACKGROUND</string>
+			<key>detail</key>
+			<string>CHMCBackgroundController</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>CHAT_VIEW_SETTINGS</string>
+			<key>detail</key>
+			<string>CHMCChatViewController</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>NEW_THEME</string>
+</dict>
+</plist>

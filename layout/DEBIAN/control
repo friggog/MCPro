@@ -1,0 +1,12 @@
+Package: me.chewitt.mcpro
+Name: Messages Customiser Pro
+Depends: firmware(>= 7.0), mobilesubstrate, preferenceloader
+Conflicts: me.chewitt.cmc
+Version: 1.3.0
+Architecture: iphoneos-arm
+Description: Customise the colours in the Messages app (and more!).
+Icon: file:///Library/PreferenceBundles/MCProPrefs.bundle/icon_big.png
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Section: Tweaks
+Depiction: http://chewitt.me/repo/depictions/mcpro.html

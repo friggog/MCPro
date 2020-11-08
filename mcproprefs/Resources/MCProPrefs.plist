@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CHMCBannerCell</string>
+			<key>height</key>
+			<integer>100</integer>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/enabled.png</string>
+			<key>default</key>
+			<false/>
+			<key>negate</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.perma</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>ENABLED</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/themes.png</string>
+			<key>default</key>
+			<string>Default</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.perma</string>
+			<key>key</key>
+			<string>ActiveTheme</string>
+			<key>id</key>
+			<string>themeSelect</string>
+			<key>label</key>
+			<string>PRIMARY_THEME</string>
+			<key>detail</key>
+			<string>CHMCThemeSelectionController</string>
+			<key>validValues</key>
+			<array>
+
+			</array>
+			<key>validTitles</key>
+			<array>
+
+			</array>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>CONVO_SPECIFIC_THEMES</string>
+			<key>detail</key>
+			<string>CHMCConvosThemesController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/convos.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>CONTACT_SPECIFIC_COLOURS</string>
+			<key>detail</key>
+			<string>CHMCContactsThemesController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/contacts.png</string>
+		</dict>
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>NEW_THEME</string>
+			<key>id</key>
+			<string>newTheme</string>
+			<key>detail</key>
+			<string>CHMCThemeMakerController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/new.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>EDIT_THEME</string>
+			<key>id</key>
+			<string>editTheme</string>
+			<key>detail</key>
+			<string>CHMCThemeMakerController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/edit.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>OTHER_OPTIONS</string>
+			<key>detail</key>
+			<string>CHMCOtherPrefsController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/other.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>COMPATIBILTIY</string>
+			<key>detail</key>
+			<string>CHMCCompatPrefsController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/compat.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>SUPPORT</string>
+			<key>id</key>
+			<string>supportGroup</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openEmailLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>CHMCButtonCell</string>
+			<key>label</key>
+			<string>EMAIL</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openTwitterLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>CHMCButtonCell</string>
+			<key>label</key>
+			<string>TWITTER</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>INFO</string>
+			<key>detail</key>
+			<string>CHMCInfoController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/MCProPrefs.bundle/info.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>id</key>
+			<string>copyright</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>M.C. Pro $ © Charlie Hewitt 2014</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>M.C. Pro</string>
+</dict>
+</plist>

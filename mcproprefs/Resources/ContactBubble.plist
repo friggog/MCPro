@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>key</key>
+			<string>Grad</string>
+			<key>id</key>
+			<string>gradient</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.contacts</string>
+			<key>label</key>
+			<string>GRADIENT</string>
+			<key>set</key>
+			<string>setGradient:specifier:</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHMCLinkToColourPickerCell</string>
+			<key>label</key>
+			<string>BUBBLE_COLOUR</string>
+			<key>id</key>
+			<string>SingleBubbleColour</string>
+			<key>detail</key>
+			<string>CHMCColourPickerController</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.contacts</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+			<key>alpha</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHMCLinkToColourPickerCell</string>
+			<key>label</key>
+			<string>TOP_COLOUR</string>
+			<key>id</key>
+			<string>TopBubbleColour</string>
+			<key>detail</key>
+			<string>CHMCColourPickerController</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.contacts</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+			<key>alpha</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHMCLinkToColourPickerCell</string>
+			<key>label</key>
+			<string>BOTTOM_COLOUR</string>
+			<key>id</key>
+			<string>BottomBubbleColour</string>
+			<key>detail</key>
+			<string>CHMCColourPickerController</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.contacts</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+			<key>alpha</key>
+			<true/>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>id</key>
+			<string>TextColour</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHMCLinkToColourPickerCell</string>
+			<key>label</key>
+			<string>TEXT_COLOUR</string>
+			<key>detail</key>
+			<string>CHMCColourPickerController</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.contacts</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>action</key>
+			<string>eraseInfo</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>ERASE_CONTACT_INFO</string>
+			<key>cellClass</key>
+			<string>PSDeleteTableCell</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>CONTACT_BUBBLES</string>
+</dict>
+</plist>

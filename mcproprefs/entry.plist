@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Messages Customiser Pro</string>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>/Library/PreferenceBundles/MCProPrefs.bundle/icon.png</string>
+		<key>label</key>
+		<string>Messages Customiser Pro</string>
+		<key>isController</key>
+		<true/>
+		<key>bundle</key>
+		<string>MCProPrefs</string>
+		<key>detail</key>
+		<string>MCProPrefsListController</string>
+	</dict>
+</dict>
+</plist>

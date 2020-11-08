@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>key</key>
+			<string>Group</string>
+			<key>id</key>
+			<string>Group</string>
+			<key>label</key>
+			<string>GROUP</string>
+			<key>detail</key>
+			<string>CHMCConvoSpecificThemeSelectionController</string>
+			<key>validValues</key>
+			<array>
+
+			</array>
+			<key>validTitles</key>
+			<array>
+
+			</array>
+			<key>PostNotification</key>
+			<string>me.chewitt.mcproprefs.settingsChanged</string>
+			<key>defaults</key>
+			<string>me.chewitt.mcproprefs.convos</string>
+			<key>cellClass</key>
+			<string>CHMCContactLinkCell</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CONVO_SPECIFIC_THEMES</string>
+</dict>
+</plist>
